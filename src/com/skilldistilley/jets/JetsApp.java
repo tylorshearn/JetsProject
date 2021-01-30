@@ -2,6 +2,7 @@ package com.skilldistilley.jets;
 
 public class JetsApp {
 	AirBase airBase = new AirBase();
+	
 	public static void main(String[] args) {
 		JetsApp jetApp = new JetsApp();
 		jetApp.launch();
@@ -9,7 +10,7 @@ public class JetsApp {
 	
 	public void launch() {
 		airBase.example();
-		
 	}
-
 }
+		
+
