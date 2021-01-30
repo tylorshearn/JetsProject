@@ -1,5 +1,5 @@
 package com.skilldistilley.jets;
 
-public class Fighter implements FlightOps{
+public class Fighter extends Jet implements FlightOps{
 
 }

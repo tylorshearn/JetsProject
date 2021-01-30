@@ -1,0 +1,5 @@
+Fighter,McDonnell Douglas F/A-18 Hornet,1190.00,500,66900000.00
+BlueAngel,General Dynamics F-16 Fighting Falcon,1500.00,2622,18800000.00
+BlackBird,Lockheed SR-71 Blackbird,2193.00,3355,33000000
+CodPlane,Lockheed P-3 Orion,473.00,5570,36000000.00
+Trainer,British Aerospace Harrier II,647.00,2416,20000000.00

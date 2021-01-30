@@ -1,5 +1,5 @@
 package com.skilldistilley.jets;
 
-public class BlueAngel implements Pilots {
+public class BlueAngel extends Jet implements Pilots {
 
 }

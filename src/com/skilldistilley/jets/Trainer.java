@@ -1,4 +1,4 @@
 package com.skilldistilley.jets;
 
-public class Trainer implements TrainingSquadron {
+public class Trainer extends Jet implements TrainingSquadron {
 }

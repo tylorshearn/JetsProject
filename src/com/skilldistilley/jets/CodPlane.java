@@ -1,5 +1,5 @@
 package com.skilldistilley.jets;
 
-public class CodPlane implements AirCraftCarrier {
+public class CodPlane extends Jet implements AirCraftCarrier {
 
 }

@@ -1,5 +1,5 @@
 package com.skilldistilley.jets;
 
-public class BlackBird implements FriendlyUAV{
+public class BlackBird extends Jet implements FriendlyUAV{
 
 }

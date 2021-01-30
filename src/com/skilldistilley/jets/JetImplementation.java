@@ -1,5 +1,5 @@
 package com.skilldistilley.jets;
 
-public class JetImplementation {
-
+public class JetImplementation extends Jet {
+	
 }

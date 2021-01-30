@@ -1,10 +1,15 @@
 package com.skilldistilley.jets;
 
 public class JetsApp {
-
+	AirBase airBase = new AirBase();
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		JetsApp jetApp = new JetsApp();
+		jetApp.launch();
+	}
+	
+	public void launch() {
+		airBase.example();
+		
 	}
 
 }
