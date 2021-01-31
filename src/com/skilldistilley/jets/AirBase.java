@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class AirBase{
+	
 	public AirBase() {
 		super();
 	}
@@ -16,8 +17,8 @@ public class AirBase{
 		System.out.println(jetList);
 	}
 	
-	private Collection<String> jetList = new ArrayList<>();
-	public void readJetsFromFile(String fileName) {
+	private Collection<Jet> jetList = new ArrayList<>();
+	public Collection<Jet> readJetsFromFile(String fileName) {
 		BufferedReader reader = null;
 		try {
 			reader = new BufferedReader(new FileReader(fileName));
@@ -47,6 +48,7 @@ public class AirBase{
 				}
 			}
 		}
+	return jetList;
 	}
 }
 	

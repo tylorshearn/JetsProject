@@ -9,7 +9,8 @@ public class JetsApp {
 	}
 	
 	public void launch() {
-		airBase.example();
+		
+		airBase.readJetsFromFile("jets.txt");
 	}
 }
 		
